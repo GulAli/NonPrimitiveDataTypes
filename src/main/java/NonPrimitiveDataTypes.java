@@ -16,7 +16,7 @@ public class NonPrimitiveDataTypes {
             if (myInt == 1) { // ADD
                 System.out.println("Enter a name : ");
                 String myString = userName.nextLine();
-                if (true) { // if include forbidden chars
+                if (false) { // if include forbidden chars
                     System.out.println("ERROR LOG : FORBIDDEN CHARACTER HAS BEN ENTERED!");
                 } else {
                     list.add(myString);
